@@ -1,0 +1,104 @@
+{
+  "data": [
+    [
+      {
+        "itemImageSrc": "img/cellos/1/cellos-2010.jpg",
+        "thumbnailImageSrc": "img/cellos/1/cellos-2010.jpg",
+        "title": "Cello №1 2010",
+        "alt": "Cello №1 2010"
+      }
+    ],
+    [
+      {
+        "itemImageSrc": "img/cellos/2/cellos-2011-4.jpg",
+        "thumbnailImageSrc": "img/cellos/2/cellos-2011-4.jpg",
+        "title": "Cello №2 2011",
+        "alt": "Cello №2 2011"
+      },
+      {
+        "itemImageSrc": "img/cellos/3/DSC05952.jpg",
+        "thumbnailImageSrc": "img/cellos/3/DSC05952.jpg",
+        "title": "Cello №2 2011",
+        "alt": "Cello №2 2011"
+      },
+      {
+        "itemImageSrc": "img/cellos/3/DSC06470.jpg",
+        "thumbnailImageSrc": "img/cellos/3/DSC06470.jpg",
+        "title": "Cello №2 2011",
+        "alt": "Cello №2 2011"
+      }
+    ],
+    [
+      {
+        "itemImageSrc": "img/cellos/3/DSC05951.jpg",
+        "thumbnailImageSrc": "img/cellos/3/DSC05951.jpg",
+        "title": "Cello №3",
+        "alt": "Cello №3"
+      },
+      {
+        "itemImageSrc": "img/cellos/3/DSC05952.jpg",
+        "thumbnailImageSrc": "img/cellos/3/DSC05952.jpg",
+        "title": "Cello №3",
+        "alt": "Cello №3"
+      },
+      {
+        "itemImageSrc": "img/cellos/3/DSC06470.jpg",
+        "thumbnailImageSrc": "img/cellos/3/DSC06470.jpg",
+        "title": "Cello №3",
+        "alt": "Cello №3"
+      }
+    ],
+    [
+      {
+        "itemImageSrc": "img/cellos/4/IMG_20180406_054813.jpg",
+        "thumbnailImageSrc": "img/cellos/4/IMG_20180406_054813.jpg",
+        "title": "Cello №4",
+        "alt": "Cello №4"
+      },
+      {
+        "itemImageSrc": "img/cellos/4/IMG_20180406_054906.jpg",
+        "thumbnailImageSrc": "img/cellos/4/IMG_20180406_054906.jpg",
+        "title": "Cello №4",
+        "alt": "Cello №4"
+      },
+      {
+        "itemImageSrc": "img/cellos/4/IMG_20180504_025306.jpg",
+        "thumbnailImageSrc": "img/cellos/4/IMG_20180504_025306.jpg",
+        "title": "Cello №4",
+        "alt": "Cello №4"
+      }
+    ],
+    [
+      {
+        "itemImageSrc": "img/cellos/alto/alto-11-2018.jpeg",
+        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018.jpeg",
+        "title": "Viola 2018",
+        "alt": "Viola 2018"
+      },
+      {
+        "itemImageSrc": "img/cellos/alto/alto-11-2018-2.jpeg",
+        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018-2.jpeg",
+        "title": "Viola 2018",
+        "alt": "Viola 2018"
+      },
+      {
+        "itemImageSrc": "img/cellos/alto/alto-11-2018-3.jpeg",
+        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018-3.jpeg",
+        "title": "Viola 2018",
+        "alt": "Viola 2018"
+      },
+      {
+        "itemImageSrc": "img/cellos/alto/alto-11-2018-4.jpeg",
+        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018-4.jpeg",
+        "title": "Viola 2018",
+        "alt": "Viola 2018"
+      },
+      {
+        "itemImageSrc": "img/cellos/alto/alto-11-2018-5.jpeg",
+        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018-5.jpeg",
+        "title": "Viola 2018",
+        "alt": "Viola 2018"
+      }
+    ]
+  ]
+}

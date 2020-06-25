@@ -1,0 +1,52 @@
+{
+  "data": [
+    [
+      {
+        "itemImageSrc": "img/violins/1/violin-4-2014.jpg",
+        "thumbnailImageSrc": "img/violins/1/violin-4-2014.jpg",
+        "title": "Violin №4 2014",
+        "alt": "Violin №4 2014"
+      },
+      {
+        "itemImageSrc": "img/violins/1/violin-4-2014-(2).jpg",
+        "thumbnailImageSrc": "img/violins/1/violin-4-2014-(2).jpg",
+        "title": "Violin №4 2014",
+        "alt": "Violin №4 2014"
+      }
+    ],
+    [
+      {
+        "itemImageSrc": "img/violins/2/violin-5-2016.jpg",
+        "thumbnailImageSrc": "img/violins/2/violin-5-2016.jpg",
+        "title": "Violin №5 2016",
+        "alt": "Violin №5 2016"
+      },
+      {
+        "itemImageSrc": "img/violins/2/violin-5-2016-2.jpg",
+        "thumbnailImageSrc": "img/violins/2/violin-5-2016-2.jpg",
+        "title": "Violin №5 2016",
+        "alt": "Violin №5 2016"
+      }
+    ],
+    [
+      {
+        "itemImageSrc": "img/violins/3/violin-6-2017.jpg",
+        "thumbnailImageSrc": "img/violins/3/violin-6-2017.jpg",
+        "title": "Violin №6 2017",
+        "alt": "Violin №6 2017"
+      },
+      {
+        "itemImageSrc": "img/violins/3/violin-6-2017-2.jpg",
+        "thumbnailImageSrc": "img/violins/3/violin-6-2017-2.jpg",
+        "title": "Violin №6 2017",
+        "alt": "Violin №6 2017"
+      },
+      {
+        "itemImageSrc": "img/violins/3/violin-6-2017-3.jpg",
+        "thumbnailImageSrc": "img/violins/3/violin-6-2017-3.jpg",
+        "title": "Violin №6 2017",
+        "alt": "Violin №6 2017"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+:root {
+  /* text values */
+  --main-font: 'OpenSans', Arial, sans-serif;
+  --font-bold: 700;
+  --font-semi-bold: 600;
+  --font-normal: 400;
+
+  /* font-size */
+  --main-text: 14px;
+  --text-s: 16px;
+  --text-m: 18px;
+  --text-l: 24px;
+  --text-xl: 36px;
+
+  /* colors */
+  --ui-black: #1B110F;
+  --ui-yellow: #F6CE00;
+  --ui-white: #ffffff;
+  --ui-gray: rgba(112, 112, 112, 0.16);
+  --ui-light-gray: #F7F7F7;
+  --ui-border: #2B1300;
+  --ui-icon: #291100;
+
+  /* wrapper */
+  --max-width: 1280px;
+  --min-desk-width: 960px;
+  --border-radius: 3px;
+
+  /* gap */
+  --gap-16: 16px;
+}
