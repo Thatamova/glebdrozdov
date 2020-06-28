@@ -6,15 +6,15 @@
       <div :class="$style.info">
         <div>
           <a href="tel:+79602441580" :class="[$style.text, $style.link]">
-            <i :class="['pi', 'pi-comments', $style.icon]"></i>
+            <i :class="['pi', 'pi-comments', $style.icon, $style.pr]"></i>
             +7 (960) 244-15-80
           </a>
           <a href="mailto:glebdrozdov@mail.ru" :class="[$style.text, $style.link]">
-            <i :class="['pi', 'pi-envelope', $style.icon]"></i>
+            <i :class="['pi', 'pi-envelope', $style.icon, $style.pr]"></i>
             glebdrozdov@mail.ru
           </a>
           <span :class="$style.text">
-            <i :class="['pi', 'pi-globe', $style.icon]"></i>
+            <i :class="['pi', 'pi-globe', $style.icon, $style.pr]"></i>
             Russia, Saint Peterburg
           </span>
         </div>
@@ -91,7 +91,7 @@ export default {
   }
 }
 
-.icon {
+.pr.icon {
   font-size: 1.4em;
   vertical-align: bottom;
   padding-right: 8px;

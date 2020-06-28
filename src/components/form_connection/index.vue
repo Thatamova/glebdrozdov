@@ -11,7 +11,7 @@
         type="text"
         placeholder="Name"
         maxLength="30"
-        :class="[$style.formInput, {['p-invalid']: !!errorName.length}]"
+        :class="[$style.formInput, $style.pr, {['p-invalid']: !!errorName.length}]"
         @input="delayTouch($v.modelForm.name, 'name')"
       />
 
@@ -20,7 +20,7 @@
         type="text"
         placeholder="Email"
         maxLength="30"
-        :class="[$style.formInput, {['p-invalid']: !!errorEmail.length}]"
+        :class="[$style.formInput, $style.pr, {['p-invalid']: !!errorEmail.length}]"
         @input="delayTouch($v.modelForm.email, 'email')"
       />
 
@@ -30,7 +30,7 @@
         maxLength="3000"
         placeholder="Text"
         :autoResize="false"
-        :class="[$style.formTextarea, {['p-invalid']: !!errorText.length}]"
+        :class="[$style.formTextarea, $style.pr, {['p-invalid']: !!errorText.length}]"
       />
 
       <Button
@@ -38,7 +38,7 @@
         label="Send"
         type="submit"
         :disabled="disabledButton"
-        :class="[$style.formButton, $style[type]]"
+        :class="[$style.formButton, $style.pr, $style[type]]"
       />
 
       <div v-if="isErrorCreating" class="p-inline-message p-inline-message-error">Error. Please try again</div>
@@ -191,13 +191,13 @@ export default {
   text-align: center;
 }
 
-.formTextarea,
-.formInput {
+.formTextarea.pr,
+.formInput.pr {
   width: 100%;
   margin-bottom: 12px;
 }
 
-.formButton {
+.formButton.pr {
   margin-bottom: 12px;
 
   &.default {

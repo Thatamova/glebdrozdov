@@ -66,13 +66,17 @@ li {
   z-index: 1500;
 }
 
-.p-galleria .p-galleria-caption {
+.p-galleria .p-galleria-item-wrapper .p-galleria-caption {
   bottom: -116px;
   left: 0;
   background: var(--ui-white);
   padding: 0;
   text-align: center;
   color: var(--ui-black);
+}
+
+.p-sidebar-mask.p-sidebar-mask-leave.p-component-overlay {
+  background-color: transparent;
 }
 
 @media screen and (max-width: 960px) {
