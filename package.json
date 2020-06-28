@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "emailjs-com": "^2.4.1",
     "mobile-device-detect": "^0.4.3",
     "normalize.css": "^8.0.1",
     "o3inline-svg": "^0.1.4",

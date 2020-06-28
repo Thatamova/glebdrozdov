@@ -57,6 +57,7 @@ import _has from 'lodash/has'
 import InputText from 'primevue/inputtext'
 import Textarea from 'primevue/textarea'
 import Button from 'primevue/button'
+import emailjs from 'emailjs-com'
 import { validationMixin } from 'vuelidate'
 import { required, minLength } from 'vuelidate/lib/validators'
 import {
@@ -155,8 +156,16 @@ export default {
       this.isCreating = true
 
       try {
-        // api
-        console.log(this.modelForm)
+        await emailjs.send(
+          'default_service',
+          'template_FSJaHhqR',
+          {
+            reply_to: this.modelForm.email,
+            from_name: this.modelForm.name,
+            message_html: this.modelForm.text + '<br>email:' + this.modelForm.email
+          },
+          'user_e3On3F96LmhqPP0gLpq1C'
+        )
         this.isCreating = false
         this.isErrorCreating = false
         this.isSuccessCreating = true
