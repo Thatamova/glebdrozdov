@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Title title="Cellos"/>
+    <Title :title="$ml.with('VueJS').get('titleCellos')" />
     <SubTitle v-if="TEXT_DESCRIPTION" :text="TEXT_DESCRIPTION"/>
 
     <GalleriaWrapper :images-items="imagesData.data" />

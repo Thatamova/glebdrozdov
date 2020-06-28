@@ -2,102 +2,57 @@
   "data": [
     [
       {
-        "itemImageSrc": "img/cellos/1/cellos-2010.jpg",
-        "thumbnailImageSrc": "img/cellos/1/cellos-2010.jpg",
-        "title": "Cello №1 2010",
-        "alt": "Cello №1 2010"
+        "itemImageSrc": "img/cellos/1/cellos-4-2014.jpg",
+        "thumbnailImageSrc": "img/cellos/1/cellos-4-2014.jpg",
+        "titleEng": "Cello №4 2014",
+        "titleRus": "Виолончель №4 2014",
+        "alt": "Cello №4 2014"
+      },
+      {
+        "itemImageSrc": "img/cellos/1/cellos-4-2014-(2).jpg",
+        "thumbnailImageSrc": "img/cellos/1/cellos-4-2014-(2).jpg",
+        "titleEng": "Cello №4 2014",
+        "titleRus": "Виолончель №4 2014",
+        "alt": "Cello №4 2014"
       }
     ],
     [
       {
-        "itemImageSrc": "img/cellos/2/cellos-2011-4.jpg",
-        "thumbnailImageSrc": "img/cellos/2/cellos-2011-4.jpg",
-        "title": "Cello №2 2011",
-        "alt": "Cello №2 2011"
+        "itemImageSrc": "img/cellos/2/cellos-5-2016.jpg",
+        "thumbnailImageSrc": "img/cellos/2/cellos-5-2016.jpg",
+        "titleEng": "Cello №5 2016",
+        "titleRus": "Виолончель №5 2016",
+        "alt": "Cello №5 2016"
       },
       {
-        "itemImageSrc": "img/cellos/3/DSC05952.jpg",
-        "thumbnailImageSrc": "img/cellos/3/DSC05952.jpg",
-        "title": "Cello №2 2011",
-        "alt": "Cello №2 2011"
-      },
-      {
-        "itemImageSrc": "img/cellos/3/DSC06470.jpg",
-        "thumbnailImageSrc": "img/cellos/3/DSC06470.jpg",
-        "title": "Cello №2 2011",
-        "alt": "Cello №2 2011"
+        "itemImageSrc": "img/cellos/2/cellos-5-2016-2.jpg",
+        "thumbnailImageSrc": "img/cellos/2/cellos-5-2016-2.jpg",
+        "titleEng": "Cello №5 2016",
+        "titleRus": "Виолончель №5 2016",
+        "alt": "Cello №5 2016"
       }
     ],
     [
       {
-        "itemImageSrc": "img/cellos/3/DSC05951.jpg",
-        "thumbnailImageSrc": "img/cellos/3/DSC05951.jpg",
-        "title": "Cello №3",
-        "alt": "Cello №3"
+        "itemImageSrc": "img/cellos/3/cellos-6-2017.jpg",
+        "thumbnailImageSrc": "img/cellos/3/cellos-6-2017.jpg",
+        "titleEng": "Cello №6 2017",
+        "titleRus": "Виолончель №6 2017",
+        "alt": "Cello №6 2017"
       },
       {
-        "itemImageSrc": "img/cellos/3/DSC05952.jpg",
-        "thumbnailImageSrc": "img/cellos/3/DSC05952.jpg",
-        "title": "Cello №3",
-        "alt": "Cello №3"
+        "itemImageSrc": "img/cellos/3/cellos-6-2017-2.jpg",
+        "thumbnailImageSrc": "img/cellos/3/cellos-6-2017-2.jpg",
+        "titleEng": "Cello №6 2017",
+        "titleRus": "Виолончель №6 2017",
+        "alt": "Cello №6 2017"
       },
       {
-        "itemImageSrc": "img/cellos/3/DSC06470.jpg",
-        "thumbnailImageSrc": "img/cellos/3/DSC06470.jpg",
-        "title": "Cello №3",
-        "alt": "Cello №3"
-      }
-    ],
-    [
-      {
-        "itemImageSrc": "img/cellos/4/IMG_20180406_054813.jpg",
-        "thumbnailImageSrc": "img/cellos/4/IMG_20180406_054813.jpg",
-        "title": "Cello №4",
-        "alt": "Cello №4"
-      },
-      {
-        "itemImageSrc": "img/cellos/4/IMG_20180406_054906.jpg",
-        "thumbnailImageSrc": "img/cellos/4/IMG_20180406_054906.jpg",
-        "title": "Cello №4",
-        "alt": "Cello №4"
-      },
-      {
-        "itemImageSrc": "img/cellos/4/IMG_20180504_025306.jpg",
-        "thumbnailImageSrc": "img/cellos/4/IMG_20180504_025306.jpg",
-        "title": "Cello №4",
-        "alt": "Cello №4"
-      }
-    ],
-    [
-      {
-        "itemImageSrc": "img/cellos/alto/alto-11-2018.jpeg",
-        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018.jpeg",
-        "title": "Viola 2018",
-        "alt": "Viola 2018"
-      },
-      {
-        "itemImageSrc": "img/cellos/alto/alto-11-2018-2.jpeg",
-        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018-2.jpeg",
-        "title": "Viola 2018",
-        "alt": "Viola 2018"
-      },
-      {
-        "itemImageSrc": "img/cellos/alto/alto-11-2018-3.jpeg",
-        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018-3.jpeg",
-        "title": "Viola 2018",
-        "alt": "Viola 2018"
-      },
-      {
-        "itemImageSrc": "img/cellos/alto/alto-11-2018-4.jpeg",
-        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018-4.jpeg",
-        "title": "Viola 2018",
-        "alt": "Viola 2018"
-      },
-      {
-        "itemImageSrc": "img/cellos/alto/alto-11-2018-5.jpeg",
-        "thumbnailImageSrc": "img/cellos/alto/alto-11-2018-5.jpeg",
-        "title": "Viola 2018",
-        "alt": "Viola 2018"
+        "itemImageSrc": "img/cellos/3/cellos-6-2017-3.jpg",
+        "thumbnailImageSrc": "img/cellos/3/cellos-6-2017-3.jpg",
+        "titleEng": "Cello №6 2017",
+        "titleRus": "Виолончель №6 2017",
+        "alt": "Cello №6 2017"
       }
     ]
   ]

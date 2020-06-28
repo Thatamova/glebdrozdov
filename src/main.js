@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './services/ml'
 
 import 'normalize.css'
 import 'primevue/resources/themes/saga-orange/theme.css'

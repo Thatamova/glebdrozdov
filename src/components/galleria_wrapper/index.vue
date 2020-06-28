@@ -21,7 +21,8 @@
             <img :src="require(`@/assets/${slotProps.item.thumbnailImageSrc }`)" :alt="slotProps.item.alt"/>
         </template>
         <template #caption="slotProps">
-          <h4 :class="$style.captionTitle">{{slotProps.item.title}}</h4>
+          <h4 v-if="$ml.current === 'english'" :class="$style.captionTitle">{{slotProps.item.titleEng}}</h4>
+          <h4 v-if="$ml.current === 'russian'" :class="$style.captionTitle">{{slotProps.item.titleRus}}</h4>
         </template>
       </Galleria>
 

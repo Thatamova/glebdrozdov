@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Title title="Workshop"/>
+    <Title :title="$ml.with('VueJS').get('titleWorkshop')" />
 
     <Galleria :value="images" :activeIndex.sync="activeIndex" containerStyle="max-width: 850px"
     :circular="true" :fullScreen="true" :showItemNavigators="true" :showThumbnails="false" :visible.sync="displayCustom">
@@ -18,7 +18,11 @@
         :key="index"
         :class="$style.imgWrapper"
       >
-        <img :src="require(`@/assets/${image.itemImageSrc }`)" :alt="image.alt" @click="imageClick(index)"/>
+        <img
+          :src="require(`@/assets/${image.itemImageSrc }`)"
+          :alt="image.alt"
+          @click="imageClick(index)"
+        />
       </div>
     </div>
   </div>
@@ -71,6 +75,7 @@ export default {
     height: 33vh;
     object-fit: cover;
     object-position: top;
+    cursor: pointer;
   }
 }
 

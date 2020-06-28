@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Title title="contacts"/>
+    <Title :title="$ml.with('VueJS').get('titleСontacts')" />
 
     <div :class="classes">
       <div :class="$style.info">
@@ -13,9 +13,8 @@
             <i :class="['pi', 'pi-envelope', $style.icon, $style.pr]"></i>
             glebdrozdov@mail.ru
           </a>
-          <span :class="$style.text">
+          <span :class="$style.text" v-text="$ml.with('VueJS').get('location')">
             <i :class="['pi', 'pi-globe', $style.icon, $style.pr]"></i>
-            Russia, Saint Peterburg
           </span>
         </div>
       </div>

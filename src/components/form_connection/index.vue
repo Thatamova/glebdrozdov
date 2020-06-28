@@ -9,7 +9,7 @@
       <InputText
         v-model="$v.modelForm.name.$model"
         type="text"
-        placeholder="Name"
+        :placeholder="$ml.with('VueJS').get('formName')"
         maxLength="30"
         :class="[$style.formInput, $style.pr, {['p-invalid']: !!errorName.length}]"
         @input="delayTouch($v.modelForm.name, 'name')"
@@ -28,25 +28,31 @@
         v-model="$v.modelForm.text.$model"
         rows="8"
         maxLength="3000"
-        placeholder="Text"
+        :placeholder="$ml.with('VueJS').get('formText')"
         :autoResize="false"
         :class="[$style.formTextarea, $style.pr, {['p-invalid']: !!errorText.length}]"
       />
 
       <Button
         class="p-button-l"
-        label="Send"
+        :label="$ml.with('VueJS').get('formButton')"
         type="submit"
         :disabled="disabledButton"
         :class="[$style.formButton, $style.pr, $style[type]]"
       />
 
-      <div v-if="isErrorCreating" class="p-inline-message p-inline-message-error">Error. Please try again</div>
+      <div
+        v-if="isErrorCreating"
+        v-text="$ml.with('VueJS').get('formError')"
+        class="p-inline-message p-inline-message-error"
+      />
     </form>
 
-    <div v-else class="p-inline-message p-inline-message-warn">
-      Your message was sent successfully
-    </div>
+    <div
+      v-else
+      v-text="$ml.with('VueJS').get('formSuccess')"
+      class="p-inline-message p-inline-message-warn"
+    />
   </div>
 </template>
 

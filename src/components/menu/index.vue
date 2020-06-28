@@ -2,25 +2,53 @@
   <nav :class="$style[theme]">
     <ul>
       <li v-if="!isPageHome">
-        <a href='/' :class="$style.menuLink">Home</a>
+        <ChangeLang :isFirst="true"/>
+      </li>
+      <li v-if="!isPageHome">
+        <a href='/' v-text="$ml.with('VueJS').get('titleHome')" :class="$style.menuLink" />
       </li>
       <li @click="hideMenu">
-        <router-link to="/biography" :class="$style.menuLink">Biography</router-link>
+        <router-link
+          to="/biography"
+          v-text="$ml.with('VueJS').get('titleBiography')"
+          :class="$style.menuLink"
+        />
       </li>
       <li @click="hideMenu">
-        <router-link to="/double-basses" :class="$style.menuLink">Double basses</router-link>
+        <router-link
+          to="/double-basses"
+          v-text="$ml.with('VueJS').get('titleDouble')"
+          :class="$style.menuLink"
+        />
       </li>
       <li @click="hideMenu">
-        <router-link to="/cellos" :class="$style.menuLink">Cellos</router-link>
+        <router-link
+          to="/cellos"
+          v-text="$ml.with('VueJS').get('titleCellos')"
+          :class="$style.menuLink"
+        />
       </li>
       <li @click="hideMenu">
-        <router-link to="/violins" :class="$style.menuLink">Violins</router-link>
+        <router-link
+          to="/violins"
+          v-text="$ml.with('VueJS').get('titleViolins')"
+          :class="$style.menuLink"
+        />
       </li>
       <li @click="hideMenu">
-        <router-link to="/workshop" :class="$style.menuLink">Workshop</router-link>
-      </li>
+        <router-link
+          to="/workshop"
+          v-text="$ml.with('VueJS').get('titleWorkshop')"
+          :class="$style.menuLink"
+        />
       <li @click="hideMenu">
-        <router-link to="/contacts" :class="$style.menuLink">Сontacts</router-link>
+        <router-link
+          to="/contacts"
+          v-text="$ml.with('VueJS').get('titleСontacts')"
+          :class="$style.menuLink" />
+      </li>
+      <li v-if="isPageHome">
+        <ChangeLang />
       </li>
     </ul>
   </nav>
@@ -28,11 +56,16 @@
 
 <script>
 import Types from 'vue-types'
+import ChangeLang from '@/components/common/change_lang'
 
 const TYPES = ['light', 'dark']
 
 export default {
   name: 'menuList',
+
+  components: {
+    ChangeLang
+  },
 
   props: {
     theme: Types.oneOf(TYPES).def(TYPES[0])

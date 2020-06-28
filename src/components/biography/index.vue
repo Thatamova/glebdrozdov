@@ -1,37 +1,28 @@
 <template>
   <div :class="classes">
-    <Title title="Biography"/>
+    <Title :title="$ml.with('VueJS').get('titleBiography')" />
 
     <div :class="$style.card">
       <div :class="$style.foto"></div>
       <div :class="$style.info">
-        <h2 :class="$style.title">Drozdov Gleb Petrovich</h2>
-        <p>Date of birth: June 17, 1967</p>
+        <h2 :class="$style.title" v-text="$ml.with('VueJS').get('name')" />
+        <p v-text="$ml.with('VueJS').get('dateBirth')" />
         <ul>
-          <li>— violin, cellos and double basses maker</li>
-          <li>— instrument restorer in orchestra</li>
-          <li>— works at the Mariinsky Theatre</li>
+          <li v-text="$ml.with('VueJS').get('listOne')" />
+          <li v-text="$ml.with('VueJS').get('listTwo')" />
+          <li v-text="$ml.with('VueJS').get('listTree')" />
         </ul>
-        <p>Russia, Saint Peterburg</p>
+        <p v-text="$ml.with('VueJS').get('location')" />
       </div>
     </div>
 
     <div>
-      <p>He graduated from the Arkhangelsk Music School on the specialty «trumpet». He graduated from the Saint Petersburg Conservatory. N.A. Roman-Korsakov on the specialty «trumpet» (1986-1993). He studied trumpet playing at the Stuttgart Higher School of Music and Theatre (Germany).
-      </p>
-
-      <p>He learned the basics of the construction of violin instruments in the workshop of W. Lakeberg (USA, Mr. Cincinnati, 1993-1995). From 1994 to 1995 in the same city he worked as a violin master in «Antonio violins» shop. The first violin was made in 1994.</p>
-
-      <p>Since 1997, he has been working as a guest master at the Mariinsky Theater. Since 2004, he has been on the staff of permanent masters.</p>
-
-      <p>He worked as a master in the symphony orchestras Karlsruhe (Germany, 1999-2004) and Stavanger (Norway, 2009-2014), and collaborated with bassist Wolfgang Guttler. In 2009-2012, he taught a course on the restoration and production of musical instruments at the Damascus Institute of Cinematography and Music.
-      </p>
-
-      <p>A total of 21 violins, 11 violas, 7 cellos and 6 double basses were created by the master. He designed his own solo double bass model and works on creating a complete line of large instruments.
-      </p>
-
-      <p>His instruments are played by musicians from the USA, Germany, Syria, Turkey, Azerbaijan, Russia (Moscow Philharmonic, Mariinsky Theater, Yakut Philharmonic, Novosibirsk, Saratov, Ryazan and other cities). The bass made by Gleb Drozdov for the Saint Petersburg Conservatory is used for competitive programs.
-      </p>
+      <p v-text="$ml.with('VueJS').get('descriptionOne')" />
+      <p v-text="$ml.with('VueJS').get('descriptionTwo')" />
+      <p v-text="$ml.with('VueJS').get('descriptionThree')" />
+      <p v-text="$ml.with('VueJS').get('descriptionFour')" />
+      <p v-text="$ml.with('VueJS').get('descriptionFive')" />
+      <p v-text="$ml.with('VueJS').get('descriptionSix')" />
     </div>
   </div>
 </template>

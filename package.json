@@ -20,6 +20,7 @@
     "primeicons": "^4.0.0",
     "primevue": "^2.0.0-rc.1",
     "vue": "^2.5.2",
+    "vue-multilanguage": "^4.0.10",
     "vue-router": "^3.0.1",
     "vue-types": "^1.7.0",
     "vuelidate": "^0.7.5"

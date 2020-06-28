@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Title title="Double Basses"/>
+    <Title :title="$ml.with('VueJS').get('titleDouble')" />
     <SubTitle v-if="TEXT_DESCRIPTION" :text="TEXT_DESCRIPTION"/>
 
     <GalleriaWrapper :images-items="imagesData.data" />
@@ -16,7 +16,7 @@ import imagesData from '@/json/double_basses.json'
 const TEXT_DESCRIPTION = ''
 
 export default {
-  name: 'Cellos',
+  name: 'DoubleBasses',
 
   components: {
     Title,

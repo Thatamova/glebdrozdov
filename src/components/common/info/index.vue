@@ -1,8 +1,8 @@
 <template>
   <div :class="classes">
     <div v-if="!themeMobile">
-      <h3 :class="$style.name">Music Instrumental Maker</h3>
-      <div>Russia, Saint Peterburg</div>
+      <h3 :class="$style.name" v-text="$ml.get('nameHeader')" />
+      <div v-text="$ml.get('location')" />
     </div>
     <div>
       <a href="tel:+79602441580" :class="$style.linkTel">Tel: +7 (960) 244-15-80</a>
