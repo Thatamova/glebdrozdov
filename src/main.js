@@ -5,10 +5,6 @@ import App from './App'
 import router from './router'
 import './services/ml'
 
-import 'normalize.css'
-import 'primevue/resources/themes/saga-orange/theme.css'
-import 'primevue/resources/primevue.min.css'
-import 'primeicons/primeicons.css'
 import './assets/css/main.css'
 
 Vue.config.productionTip = false

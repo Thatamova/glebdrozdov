@@ -64,7 +64,8 @@ export default {
   &.main {
     background: url(@/assets/img/back-desc.jpg);
     background-size: cover;
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
+    height: 100%;
   }
 
   .title {
@@ -76,7 +77,8 @@ export default {
   &.main {
     background: url(@/assets/img/back-mob.jpg);
     background-size: cover;
-    height: calc(100vh - 66px);
+    min-height: calc(100vh - 66px);
+    height: 100%;
   }
 
   .title {
