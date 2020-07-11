@@ -110,4 +110,24 @@ li {
     height: auto;
     max-height: 200px;
   }
+
+  .p-galleria .p-galleria-close {
+    width: 2rem;
+    height: 2rem;
+    z-index: 1000;
+  }
+
+  .p-galleria .p-galleria-close .p-galleria-close-icon {
+    font-size: 1.5rem;
+  }
+
+  .p-galleria .p-galleria-item-nav {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .p-galleria .p-galleria-item-nav .p-galleria-item-next-icon,
+  .p-galleria .p-galleria-item-nav .p-galleria-item-prev-icon {
+    font-size: 1.5rem;
+  }
 }
