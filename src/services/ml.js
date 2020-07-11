@@ -8,6 +8,8 @@ export default new MLCreate({
   save: process.env.NODE_ENV === 'production',
   languages: [
     new MLanguage('english').create({
+      title: 'double basses',
+      subtitle: 'by Gleb Drozdov',
       titleHome: 'Home',
       titleBiography: 'Biography',
       titleDouble: 'Double basses',
@@ -23,7 +25,6 @@ export default new MLCreate({
       formError: 'Error. Please try again',
       formSuccess: 'Your message was sent successfully',
       name: 'Drozdov Gleb Petrovich',
-      dateBirth: 'Date of birth: June 17, 1967',
       listOne: '- violin, cellos and double basses maker',
       listTwo: '- instrument restorer in orchestra',
       listTree: '- works at the Mariinsky Theatre',
@@ -36,6 +37,8 @@ export default new MLCreate({
     }),
 
     new MLanguage('russian').create({
+      title: 'Контрабасы',
+      subtitle: 'мастерской Глеба Дроздова',
       titleHome: 'Главная',
       titleBiography: 'Биография',
       titleDouble: 'Контрабасы',
@@ -51,7 +54,6 @@ export default new MLCreate({
       formError: 'Ошибка оправки. Попробуйте еще раз',
       formSuccess: 'Ваше сообщение успешно отправлено',
       name: 'Дроздов Глеб Петрович',
-      dateBirth: 'Дата рождения: 17 июня 1967 г.',
       listOne: '- скрипичный мастер',
       listTwo: '- реставратор оркестрa',
       listTree: '- работает в Мариинском театре',

@@ -2,208 +2,264 @@
   "data": [
     [
       {
-        "itemImageSrc": "img/dbasses/1/db-1-2013-1.jpg",
-        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-1.jpg",
-        "titleEng": "Double bass №1 2013",
-        "titleRus": "Контрабас №1 2013",
-        "alt": "Double bass №1 2013"
-      },
-      {
-        "itemImageSrc": "img/dbasses/1/db-1-2013-2.jpg",
-        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-2.jpg",
-        "titleEng": "Double bass №1 2013",
-        "titleRus": "Контрабас №1 2013",
-        "alt": "Double bass №1 2013"
-      },
-      {
-        "itemImageSrc": "img/dbasses/1/db-1-2013-3.jpg",
-        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-3.jpg",
-        "titleEng": "Double bass №1 2013",
-        "titleRus": "Контрабас №1 2013",
-        "alt": "Double bass №1 2013"
-      },
-      {
-        "itemImageSrc": "img/dbasses/1/db-1-2013-4.jpg",
-        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-4.jpg",
-        "titleEng": "Double bass №1 2013",
-        "titleRus": "Контрабас №1 2013",
-        "alt": "Double bass №1 2013"
-      },
-      {
-        "itemImageSrc": "img/dbasses/1/db-1-2013-5.jpg",
-        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-5.jpg",
-        "titleEng": "Double bass №1 2013",
-        "titleRus": "Контрабас №1 2013",
-        "alt": "Double bass №1 2013"
-      },
-      {
-        "itemImageSrc": "img/dbasses/1/db-1-2013-6.jpg",
-        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-6.jpg",
-        "titleEng": "Double bass №1 2013",
-        "titleRus": "Контрабас №1 2013",
-        "alt": "Double bass №1 2013"
+        "itemImageSrc": "img/dbasses/1/db-1-2013-8.jpg",
+        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-8.jpg",
+        "titleEng": "Double bass 2013",
+        "titleRus": "Контрабас 2013",
+        "subtitleRus": "контрабас 2013",
+        "subtitleEng": "bouble bass 2013",
+        "alt": "Double bass 2013"
       },
       {
         "itemImageSrc": "img/dbasses/1/db-1-2013-7.jpg",
         "thumbnailImageSrc": "img/dbasses/1/db-1-2013-7.jpg",
-        "titleEng": "Double bass №1 2013",
-        "titleRus": "Контрабас №1 2013",
-        "alt": "Double bass №1 2013"
+        "titleEng": "Double bass 2013",
+        "titleRus": "Контрабас 2013",
+        "subtitleRus": "Евгений Рыжков (Контрабас 2013)",
+        "subtitleEng": "Yevgeniy Ryzhkov (Double bass 2013)",
+        "alt": "Double bass 2013"
       },
       {
-        "itemImageSrc": "img/dbasses/1/db-1-2013-8.jpg",
-        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-8.jpg",
-        "titleEng": "Double bass №1 2013",
-        "titleRus": "Контрабас №1 2013",
-        "alt": "Double bass №1 2013"
+        "itemImageSrc": "img/dbasses/1/db-1-2013-1.jpg",
+        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-1.jpg",
+        "titleEng": "Double bass 2013",
+        "titleRus": "Контрабас 2013",
+        "subtitleRus": "Евгений Рыжков (Контрабас 2013), Валерий Гергиев",
+        "subtitleEng": "Yevgeniy Ryzhkov (Double bass 2013), Valeriy Gergiyev",
+        "alt": "Double bass 2013"
+      },
+      {
+        "itemImageSrc": "img/dbasses/1/db-1-2013-6.jpg",
+        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-6.jpg",
+        "titleEng": "Double bass 2013",
+        "titleRus": "Контрабас 2013",
+        "subtitleRus": "Лоренц Настурика-Гершовичи, Евгений Рыжков (Контрабас 2013)",
+        "subtitleEng": "Lorenz Nasturica-Herschcowici, Yevgeniy Ryzhkov (Double bass 2013)",
+        "alt": "Double bass 2013"
+      },
+      {
+        "itemImageSrc": "img/dbasses/1/db-1-2013-2.jpg",
+        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-2.jpg",
+        "titleEng": "Double bass 2013",
+        "titleRus": "Контрабас 2013",
+        "subtitleRus": "Лоренц Настурика-Гершовичи, Евгений Рыжков (Контрабас 2013)",
+        "subtitleEng": "Lorenz Nasturica-Herschcowici, Yevgeniy Ryzhkov (Double bass 2013)",
+        "alt": "Double bass 2013"
+      },
+      {
+        "itemImageSrc": "img/dbasses/1/db-1-2013-3.jpg",
+        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-3.jpg",
+        "titleEng": "Double bass 2013",
+        "titleRus": "Контрабас 2013",
+        "subtitleRus": "Лоренц Настурика-Гершовичи, Евгений Рыжков (Контрабас 2013), Валерий Гергиев. Пасхальный фестиваль 2019",
+        "subtitleEng": "Lorenz Nasturica-Herschcowici, Yevgeniy Ryzhkov (Double bass 2013), Valeriy Gergiyev. Easter festival 2019",
+        "alt": "Double bass 2013"
+      },
+      {
+        "itemImageSrc": "img/dbasses/1/db-1-2013-4.jpg",
+        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-4.jpg",
+        "titleEng": "Double bass 2013",
+        "titleRus": "Контрабас 2013",
+        "subtitleRus": "Лоренц Настурика-Гершовичи, Евгений Рыжков (Контрабас 2013), Валерий Гергиев. Пасхальный фестиваль 2019",
+        "subtitleEng": "Lorenz Nasturica-Herschcowici, Yevgeniy Ryzhkov (Double bass 2013), Valeriy Gergiyev. Easter festival 2019",
+        "alt": "Double bass 2013"
+      },
+      {
+        "itemImageSrc": "img/dbasses/1/db-1-2013-5.jpg",
+        "thumbnailImageSrc": "img/dbasses/1/db-1-2013-5.jpg",
+        "titleEng": "Double bass 2013",
+        "titleRus": "Контрабас 2013",
+        "subtitleRus": "Лоренц Настурика-Гершовичи, Евгений Рыжков (Контрабас 2013), Валерий Гергиев. Пасхальный фестиваль 2019",
+        "subtitleEng": "Lorenz Nasturica-Herschcowici, Yevgeniy Ryzhkov (Double bass 2013), Valeriy Gergiyev. Easter festival 2019",
+        "alt": "Double bass 2013"
       }
     ],
     [
       {
         "itemImageSrc": "img/dbasses/2/db-2-2015.jpg",
         "thumbnailImageSrc": "img/dbasses/2/db-2-2015.jpg",
-        "titleEng": "Double bass №2 2015",
-        "titleRus": "Контрабас №2 2015",
-        "alt": "Double bass №2 2015"
+        "titleEng": "Double bass 2015",
+        "titleRus": "Контрабас 2015",
+        "subtitleRus": "продан в консерваторию Министерства культуры",
+        "subtitleEng": "sold to the conservatory of the Ministry of Culture",
+        "alt": "Double bass 2015"
       }
     ],
     [
       {
         "itemImageSrc": "img/dbasses/3/db-3-2016-1.jpg",
         "thumbnailImageSrc": "img/dbasses/3/db-3-2016-1.jpg",
-        "titleEng": "Double bass №3 2016",
-        "titleRus": "Контрабас №3 2016",
-        "alt": "Double bass №3 2016"
+        "titleEng": "Double bass 2016",
+        "titleRus": "Контрабас 2016",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2016"
       },
       {
         "itemImageSrc": "img/dbasses/3/db-3-2016-2.jpg",
         "thumbnailImageSrc": "img/dbasses/3/db-3-2016-2.jpg",
-        "titleEng": "Double bass №3 2016",
-        "titleRus": "Контрабас №3 2016",
-        "alt": "Double bass №3 2016"
+        "titleEng": "Double bass 2016",
+        "titleRus": "Контрабас 2016",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2016"
       },
       {
         "itemImageSrc": "img/dbasses/3/db-3-2016-3.jpg",
         "thumbnailImageSrc": "img/dbasses/3/db-3-2016-3.jpg",
-        "titleEng": "Double bass №3 2016",
-        "titleRus": "Контрабас №3 2016",
-        "alt": "Double bass №3 2016"
+        "titleEng": "Double bass 2016",
+        "titleRus": "Контрабас 2016",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2016"
       },
       {
         "itemImageSrc": "img/dbasses/3/db-3-2016-4.jpg",
         "thumbnailImageSrc": "img/dbasses/3/db-3-2016-4.jpg",
-        "titleEng": "Double bass №3 2016",
-        "titleRus": "Контрабас №3 2016",
-        "alt": "Double bass №3 2016"
+        "titleEng": "Double bass 2016",
+        "titleRus": "Контрабас 2016",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2016"
       },
       {
         "itemImageSrc": "img/dbasses/3/db-3-2016-5.jpg",
         "thumbnailImageSrc": "img/dbasses/3/db-3-2016-5.jpg",
-        "titleEng": "Double bass №3 2016",
-        "titleRus": "Контрабас №3 2016",
-        "alt": "Double bass №3 2016"
+        "titleEng": "Double bass 2016",
+        "titleRus": "Контрабас 2016",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2016"
       },
       {
         "itemImageSrc": "img/dbasses/3/db-3-2016-6.jpg",
         "thumbnailImageSrc": "img/dbasses/3/db-3-2016-6.jpg",
-        "titleEng": "Double bass №3 2016",
-        "titleRus": "Контрабас №3 2016",
-        "alt": "Double bass №3 2016"
+        "titleEng": "Double bass 2016",
+        "titleRus": "Контрабас 2016",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2016"
       },
       {
         "itemImageSrc": "img/dbasses/3/db-3-2016-7.jpg",
         "thumbnailImageSrc": "img/dbasses/3/db-3-2016-7.jpg",
-        "titleEng": "Double bass №3 2016",
-        "titleRus": "Контрабас №3 2016",
-        "alt": "Double bass №3 2016"
+        "titleEng": "Double bass 2016",
+        "titleRus": "Контрабас 2016",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2016"
       },
       {
         "itemImageSrc": "img/dbasses/3/db-3-2016-8.jpg",
         "thumbnailImageSrc": "img/dbasses/3/db-3-2016-8.jpg",
-        "titleEng": "Double bass №3 2016",
-        "titleRus": "Контрабас №3 2016",
-        "alt": "Double bass №3 2016"
+        "titleEng": "Double bass 2016",
+        "titleRus": "Контрабас 2016",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2016"
       }
     ],
     [
       {
         "itemImageSrc": "img/dbasses/4/db-4-2018-1.jpg",
         "thumbnailImageSrc": "img/dbasses/4/db-4-2018-1.jpg",
-        "titleEng": "Double bass №4 2018",
-        "titleRus": "Контрабас №4 2018",
-        "alt": "Double bass №4 2018"
+        "titleEng": "Double bass 2018",
+        "titleRus": "Контрабас 2018",
+        "subtitleRus": "продан в Московскую филармонию",
+        "subtitleEng": "sold to the Moscow Philharmonic",
+        "alt": "Double bass 2018"
       },
       {
         "itemImageSrc": "img/dbasses/4/db-4-2018-2.jpg",
         "thumbnailImageSrc": "img/dbasses/4/db-4-2018-2.jpg",
-        "titleEng": "Double bass №4 2018",
-        "titleRus": "Контрабас №4 2018",
-        "alt": "Double bass №4 2018"
+        "titleEng": "Double bass 2018",
+        "titleRus": "Контрабас 2018",
+        "subtitleRus": "продан в Московскую филармонию",
+        "subtitleEng": "sold to the Moscow Philharmonic",
+        "alt": "Double bass 2018"
       },
       {
         "itemImageSrc": "img/dbasses/4/db-4-2018-3.jpg",
         "thumbnailImageSrc": "img/dbasses/4/db-4-2018-3.jpg",
-        "titleEng": "Double bass №4 2018",
-        "titleRus": "Контрабас №4 2018",
-        "alt": "Double bass №4 2018"
+        "titleEng": "Double bass 2018",
+        "titleRus": "Контрабас 2018",
+        "subtitleRus": "продан в Московскую филармонию",
+        "subtitleEng": "sold to the Moscow Philharmonic",
+        "alt": "Double bass 2018"
       },
       {
         "itemImageSrc": "img/dbasses/4/db-4-2018-4.jpg",
         "thumbnailImageSrc": "img/dbasses/4/db-4-2018-4.jpg",
-        "titleEng": "Double bass №4 2018",
-        "titleRus": "Контрабас №4 2018",
-        "alt": "Double bass №4 2018"
+        "titleEng": "Double bass 2018",
+        "titleRus": "Контрабас 2018",
+        "subtitleRus": "продан в Московскую филармонию",
+        "subtitleEng": "sold to the Moscow Philharmonic",
+        "alt": "Double bass 2018"
       },
       {
         "itemImageSrc": "img/dbasses/4/db-4-2018-5.jpg",
         "thumbnailImageSrc": "img/dbasses/4/db-4-2018-5.jpg",
-        "titleEng": "Double bass №4 2018",
-        "titleRus": "Контрабас №4 2018",
-        "alt": "Double bass №4 2018"
+        "titleEng": "Double bass 2018",
+        "titleRus": "Контрабас 2018",
+        "subtitleRus": "продан в Московскую филармонию",
+        "subtitleEng": "sold to the Moscow Philharmonic",
+        "alt": "Double bass 2018"
       },
       {
         "itemImageSrc": "img/dbasses/4/db-4-2018-6.jpg",
         "thumbnailImageSrc": "img/dbasses/4/db-4-2018-6.jpg",
-        "titleEng": "Double bass №4 2018",
-        "titleRus": "Контрабас №4 2018",
-        "alt": "Double bass №4 2018"
+        "titleEng": "Double bass 2018",
+        "titleRus": "Контрабас 2018",
+        "subtitleRus": "продан в Московскую филармонию",
+        "subtitleEng": "sold to the Moscow Philharmonic",
+        "alt": "Double bass 2018"
       },
       {
         "itemImageSrc": "img/dbasses/4/db-4-2018-7.jpg",
         "thumbnailImageSrc": "img/dbasses/4/db-4-2018-7.jpg",
-        "titleEng": "Double bass №4 2018",
-        "titleRus": "Контрабас №4 2018",
-        "alt": "Double bass №4 2018"
+        "titleEng": "Double bass 2018",
+        "titleRus": "Контрабас 2018",
+        "subtitleRus": "продан в Московскую филармонию",
+        "subtitleEng": "sold to the Moscow Philharmonic",
+        "alt": "Double bass 2018"
       },
       {
         "itemImageSrc": "img/dbasses/4/db-4-2018-8.jpg",
         "thumbnailImageSrc": "img/dbasses/4/db-4-2018-8.jpg",
-        "titleEng": "Double bass №4 2018",
-        "titleRus": "Контрабас №4 2018",
-        "alt": "Double bass №4 2018"
+        "titleEng": "Double bass 2018",
+        "titleRus": "Контрабас 2018",
+        "subtitleRus": "продан в Московскую филармонию",
+        "subtitleEng": "sold to the Moscow Philharmonic",
+        "alt": "Double bass 2018"
       }
     ],
     [
       {
         "itemImageSrc": "img/dbasses/5/db-5-2019-1.jpg",
         "thumbnailImageSrc": "img/dbasses/5/db-5-2019-1.jpg",
-        "titleEng": "Double bass №5 2019",
-        "titleRus": "Контрабас №5 2019",
-        "alt": "Double bass №5 2019"
+        "titleEng": "Double bass 2019",
+        "titleRus": "Пятиструнный контрабас 2019",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2019"
       },
       {
         "itemImageSrc": "img/dbasses/5/db-5-2019-2.jpg",
         "thumbnailImageSrc": "img/dbasses/5/db-5-2019-2.jpg",
-        "titleEng": "Double bass №5 2019",
-        "titleRus": "Контрабас №5 2019",
-        "alt": "Double bass №5 2019"
+        "titleEng": "Double bass 2019",
+        "titleRus": "Пятиструнный контрабас 2019",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2019"
       },
       {
         "itemImageSrc": "img/dbasses/5/db-5-2019-3.jpg",
         "thumbnailImageSrc": "img/dbasses/5/db-5-2019-3.jpg",
-        "titleEng": "Double bass №5 2019",
-        "titleRus": "Контрабас №5 2019",
-        "alt": "Double bass №5 2019"
+        "titleEng": "Double bass 2019",
+        "titleRus": "Пятиструнный контрабас 2019",
+        "subtitleRus": "продан в Мариинский театр",
+        "subtitleEng": "sold to the Mariinsky Theatre",
+        "alt": "Double bass 2019"
       }
     ]
   ]

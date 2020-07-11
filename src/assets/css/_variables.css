@@ -4,9 +4,11 @@
   --font-bold: 700;
   --font-semi-bold: 600;
   --font-normal: 400;
+  --lh-text: 1.4;
 
   /* font-size */
   --main-text: 14px;
+  --text-xs: 13px;
   --text-s: 16px;
   --text-m: 18px;
   --text-l: 24px;

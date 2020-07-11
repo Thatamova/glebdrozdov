@@ -1,8 +1,8 @@
 <template>
   <div :class="classes">
     <div :class="$style.wrapper">
-      <h1 :class="$style.title">double basses</h1>
-      <h2 :class="$style.subTitle">by Gleb Drozdov</h2>
+      <h1 :class="$style.title" v-text="$ml.with('VueJS').get('title')" />
+      <h2 :class="$style.subTitle" v-text="$ml.with('VueJS').get('subtitle')" />
       <Menu theme="dark" :class="$style.menu"/>
     </div>
   </div>

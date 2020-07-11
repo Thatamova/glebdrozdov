@@ -1,9 +1,3 @@
-@import 'normalize.css';
-@import './fonts.css';
-@import 'primevue/resources/themes/saga-orange/theme.css';
-@import 'primevue/resources/primevue.min.css';
-@import 'primeicons/primeicons.css';
-
 body {
   font-family: var(--main-font);
   font-weight: 400;
@@ -33,7 +27,7 @@ li {
 }
 
 .p-galleria:not(.p-galleria-fullscreen) {
-  padding: 24px 16px 36px;
+  padding: 24px 16px 0;
   background: var(--ui-white);
   border-radius: var(--border-radius);
 }
@@ -48,7 +42,7 @@ li {
 
 .p-galleria:not(.p-galleria-fullscreen) .p-galleria-item img {
   width: 100%;
-  height: 240px;
+  height: 350px;
   object-fit: contain;
 }
 
@@ -64,7 +58,7 @@ li {
 
 .p-galleria.p-galleria-fullscreen .p-galleria-item img {
   width: 80%;
-  height: 70vh;
+  height: 65vh;
   object-fit: contain;
 }
 
@@ -72,26 +66,43 @@ li {
   z-index: 1500;
 }
 
-.p-galleria .p-galleria-item-wrapper .p-galleria-caption {
-  bottom: -116px;
-  left: 0;
+.p-galleria-item-container {
+  flex-direction: column;
+}
+
+.p-galleria-item {
+  order: 2;
+}
+
+.p-galleria:not(.p-galleria-fullscreen) .p-galleria-item-wrapper .p-galleria-caption {
+  order: 1;
+  position: relative;
   background: var(--ui-white);
-  padding: 0;
+  padding: 0 16px 12px;
   text-align: center;
   color: var(--ui-black);
+}
+
+.p-galleria.p-galleria-fullscreen .p-galleria-item-wrapper .p-galleria-caption {
+  order: 1;
+  position: relative;
+  background: transparent;
+  padding: 0 16px 20px;
+  text-align: center;
+  color: var(--ui-white);
 }
 
 .p-sidebar-mask.p-sidebar-mask-leave.p-component-overlay {
   background-color: transparent;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
   .p-galleria:not(.p-galleria-fullscreen) {
-    padding: 16px 8px 36px;
+    padding: 16px 8px 0;
   }
 
   .p-galleria:not(.p-galleria-fullscreen) .p-galleria-item img {
     height: auto;
-    max-height: 180px;
+    max-height: 200px;
   }
 }

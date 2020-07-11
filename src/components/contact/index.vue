@@ -9,9 +9,9 @@
             <i :class="['pi', 'pi-comments', $style.icon, $style.pr]"></i>
             +7 (960) 244-15-80
           </a>
-          <a href="mailto:glebdrozdov@mail.ru" :class="[$style.text, $style.link]">
+          <a href="mailto:db.glebdrozdov@gmail.com" :class="[$style.text, $style.link]">
             <i :class="['pi', 'pi-envelope', $style.icon, $style.pr]"></i>
-            glebdrozdov@mail.ru
+            db.glebdrozdov@gmail.com
           </a>
           <span :class="$style.text" v-text="$ml.with('VueJS').get('location')">
             <i :class="['pi', 'pi-globe', $style.icon, $style.pr]"></i>

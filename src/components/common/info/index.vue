@@ -6,7 +6,7 @@
     </div>
     <div>
       <a href="tel:+79602441580" :class="$style.linkTel">Tel: +7 (960) 244-15-80</a>
-      <a href="mailto:glebdrozdov@mail.ru" :class="$style.linkTel">Email: glebdrozdov@mail.ru</a>
+      <a href="mailto:db.glebdrozdov@gmail.com" :class="$style.linkTel">Email: db.glebdrozdov@gmail.com</a>
     </div>
   </div>
 </template>

@@ -23,6 +23,8 @@
         <template #caption="slotProps">
           <h4 v-if="$ml.current === 'english'" :class="$style.captionTitle">{{slotProps.item.titleEng}}</h4>
           <h4 v-if="$ml.current === 'russian'" :class="$style.captionTitle">{{slotProps.item.titleRus}}</h4>
+          <p v-if="$ml.current === 'english' && slotProps.item.subtitleEng" :class="$style.captionSubtitle">{{slotProps.item.subtitleEng}}</p>
+          <p v-if="$ml.current === 'russian' && slotProps.item.subtitleRus" :class="$style.captionSubtitle">{{slotProps.item.subtitleRus}}</p>
         </template>
       </Galleria>
 
@@ -43,6 +45,12 @@
         </template>
         <template #thumbnail="slotProps">
             <img :src="require(`@/assets/${slotProps.item.thumbnailImageSrc }`)" :alt="slotProps.item.alt"/>
+        </template>
+        <template #caption="slotProps">
+          <h4 v-if="$ml.current === 'english'" :class="$style.captionTitle">{{slotProps.item.titleEng}}</h4>
+          <h4 v-if="$ml.current === 'russian'" :class="$style.captionTitle">{{slotProps.item.titleRus}}</h4>
+          <p v-if="$ml.current === 'english' && slotProps.item.subtitleEng" :class="$style.captionSubtitle">{{slotProps.item.subtitleEng}}</p>
+          <p v-if="$ml.current === 'russian' && slotProps.item.subtitleRus" :class="$style.captionSubtitle">{{slotProps.item.subtitleRus}}</p>
         </template>
       </Galleria>
     </div>
@@ -82,7 +90,7 @@ export default {
       mobile: isMobile,
       responsiveOptions: [
         {
-          breakpoint: '960px',
+          breakpoint: '1000px',
           numVisible: 4
         },
         {
@@ -144,8 +152,15 @@ export default {
 .captionTitle {
   margin: 0;
   padding: 0;
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--font-bold);
+  font-size: var(--text-m);
+}
+
+.captionSubtitle {
+  padding: 6px 0 0 0;
+  margin: 0;
   font-size: var(--main-text);
+  line-height: var(--lh-text);
 }
 
 .mobile {

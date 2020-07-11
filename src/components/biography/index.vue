@@ -6,11 +6,10 @@
       <div :class="$style.foto"></div>
       <div :class="$style.info">
         <h2 :class="$style.title" v-text="$ml.with('VueJS').get('name')" />
-        <p v-text="$ml.with('VueJS').get('dateBirth')" />
         <ul>
-          <li v-text="$ml.with('VueJS').get('listOne')" />
-          <li v-text="$ml.with('VueJS').get('listTwo')" />
-          <li v-text="$ml.with('VueJS').get('listTree')" />
+          <li v-text="$ml.with('VueJS').get('listOne')" :class="$style.listItem" />
+          <li v-text="$ml.with('VueJS').get('listTwo')" :class="$style.listItem" />
+          <li v-text="$ml.with('VueJS').get('listTree')" :class="$style.listItem" />
         </ul>
         <p v-text="$ml.with('VueJS').get('location')" />
       </div>
@@ -41,6 +40,7 @@ export default {
   computed: {
     classes () {
       return [
+        this.$style.bio,
         {
           [this.$style.mobile]: isMobile
         }
@@ -51,6 +51,9 @@ export default {
 </script>
 
 <style module lang="postcss">
+.bio {
+  line-height: var(--lh-text);
+}
 .card {
   display: flex;
   justify-content: space-around;
@@ -89,6 +92,10 @@ export default {
     width: 100%;
     height: 3px;
   }
+}
+
+.listItem {
+  padding-bottom: 4px;
 }
 
 .info {
