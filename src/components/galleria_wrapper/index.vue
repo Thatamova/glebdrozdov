@@ -44,7 +44,7 @@
           <img :src="require(`@/assets/${slotProps.item.itemImageSrc}`)" :alt="slotProps.item.alt"/>
         </template>
         <template #thumbnail="slotProps">
-            <img :src="require(`@/assets/${slotProps.item.thumbnailImageSrc }`)" :alt="slotProps.item.alt"/>
+          <img :src="require(`@/assets/${slotProps.item.thumbnailImageSrc }`)" :alt="slotProps.item.alt"/>
         </template>
         <template #caption="slotProps">
           <h4 v-if="$ml.current === 'english'" :class="$style.captionTitle">{{slotProps.item.titleEng}}</h4>
@@ -191,6 +191,11 @@ export default {
   .galleria {
     margin-bottom: 16px;
   }
+
+  & :global(.p-galleria-thumbnail-items-container) {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 760px) {

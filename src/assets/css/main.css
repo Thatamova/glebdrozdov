@@ -56,10 +56,6 @@ li {
   object-fit: cover;
 }
 
-.p-galleria-thumbnail-items-container {
-  width: 100%;
-}
-
 .p-galleria.p-galleria-fullscreen .p-galleria-item img {
   width: 80%;
   height: 65vh;
