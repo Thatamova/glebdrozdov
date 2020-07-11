@@ -87,25 +87,45 @@ export default {
       visibleFull: false,
       displayBasic: false,
       activeIndex: 0,
-      mobile: isMobile,
-      responsiveOptions: [
-        {
-          breakpoint: '1000px',
-          numVisible: 4
-        },
-        {
-          breakpoint: '768px',
-          numVisible: 3
-        },
-        {
-          breakpoint: '560px',
-          numVisible: 2
-        }
-      ]
+      mobile: isMobile
     }
   },
 
   computed: {
+    responsiveOptions () {
+      if (isMobile) {
+        return [
+          {
+            breakpoint: '1500px',
+            numVisible: 3
+          },
+          {
+            breakpoint: '768px',
+            numVisible: 2
+          },
+          {
+            breakpoint: '560px',
+            numVisible: 1
+          }
+        ]
+      } else {
+        return [
+          {
+            breakpoint: '1000px',
+            numVisible: 5
+          },
+          {
+            breakpoint: '768px',
+            numVisible: 2
+          },
+          {
+            breakpoint: '560px',
+            numVisible: 1
+          }
+        ]
+      }
+    },
+
     classes () {
       return [
         {
