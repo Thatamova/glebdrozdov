@@ -26,6 +26,14 @@ li {
   margin: 0;
 }
 
+.p-dialog .p-dialog-header,
+.p-dialog .p-dialog-content {
+  color: var(--ui-black)!important;
+  font-family: var(--main-font)!important;
+  font-weight: 400!important;
+  font-size: var(--main-text)!important;
+}
+
 .p-galleria:not(.p-galleria-fullscreen) {
   padding: 24px 16px 0;
   background: var(--ui-white);

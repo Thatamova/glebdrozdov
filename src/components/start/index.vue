@@ -65,6 +65,7 @@ export default {
     background: url(@/assets/img/back-desc.jpg);
     background-size: cover;
     min-height: calc(100vh - 80px);
+    min-width: var(--min-desk-width);
     height: 100%;
   }
 

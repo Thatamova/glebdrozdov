@@ -35,6 +35,7 @@ export default {
   margin: 32px 16px 8px 0;
   border-radius: 50%;
   border: 1px solid var(--ui-light-gray);
+  cursor: pointer;
 
   &.first {
     margin: 0 16px 22px 0;

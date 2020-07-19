@@ -2,18 +2,22 @@
   <div :class="classes">
     <Info />
     <h2 :class="$style.copyright">&#169; 2020 Gleb Drozdov</h2>
+
+    <Policy />
   </div>
 </template>
 
 <script>
 import { isMobile } from 'mobile-device-detect'
 import Info from '@/components/common/info/index.vue'
+import Policy from '@/components/common/policy/index.vue'
 
 export default {
   name: 'Footer',
 
   components: {
-    Info
+    Info,
+    Policy
   },
 
   computed: {

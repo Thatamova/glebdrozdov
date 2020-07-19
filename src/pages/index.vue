@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="$style.page">
     <Header />
     <Start />
   </div>
@@ -18,3 +18,9 @@ export default {
   }
 }
 </script>
+
+<style module lang="postcss">
+.page {
+  position: relative;
+}
+</style>

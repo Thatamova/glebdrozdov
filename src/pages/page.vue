@@ -91,6 +91,7 @@ export default {
 
 <style module lang="postcss">
 .page {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
